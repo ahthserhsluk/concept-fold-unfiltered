@@ -1,0 +1,128 @@
+{
+  "savage-friend": [
+    {
+      "roast": "Salary ₹48,000 aayi aur ₹46,300 udd gaye, bhai tu salary leta nahi, bas forward kar deta hai. 97% gaya aur ₹0 invested, tera bank account ghar nahi, transit lounge hai.",
+      "fix": "Fix: Salary aate hi ₹5,000 ki SIP auto-debit, pehle invest phir party."
+    },
+    {
+      "roast": "Amazon pe 6 orders, ₹14,200, aur puchhun kya liya toh tujhe yaad bhi nahi hoga. Tera room ab room nahi, return-pending godown hai.",
+      "fix": "Fix: Har cheez 48 ghante cart mein rakh, Amazon ka cap ₹5,000."
+    },
+    {
+      "roast": "Pehle 10 din mein ₹31,000 khatam, uske baad tu 'bhai UPI kar de, kal deta hoon' mode mein tha. Tu ameer nahi hai, tu bas 10 din ka ameer hai.",
+      "fix": "Fix: Salary ko hafton mein baant, har hafte max ₹8,000."
+    }
+  ],
+  "desi-mummy": [
+    {
+      "roast": "Beta, ₹48,000 kamaate ho aur ₹0 invested? Sharma ji ka beta pehli salary se SIP chala raha hai aur ab flat ki booking bhi kar di.",
+      "fix": "Fix: Har mahine ₹5,000 ki RD, salary wale din, bina bhoole."
+    },
+    {
+      "roast": "Zomato pe 24 orders, ₹8,900, aur jo achaar maine bheja tha woh fridge mein ro raha hai. Ghar ka khana free tha beta, uspe delivery charge bhi nahi lagta.",
+      "fix": "Fix: Sunday ko hafte ka khana bana ke rakho, Zomato cap ₹3,000."
+    },
+    {
+      "roast": "ATM se 3 baar cash nikala, ₹5,900, aur hisaab kisi ka nahi. Humare zamane mein cash gin ke rakhte the, tumhare zamane mein cash gayab ho jaata hai.",
+      "fix": "Fix: Cash sirf ₹2,000 mahine ka, har note ka hisaab diary mein."
+    }
+  ],
+  "ca-uncle": [
+    {
+      "roast": "Beta 97% salary kharch aur ₹0 invested, tax bachane ka plan hai ya income tax wale khud ghar aake samjhayenge? Maine toh pehli naukri mein hi PPF khol diya tha.",
+      "fix": "Fix: Salary wale din ₹6,000 ki ELSS SIP, tax bhi bachega."
+    },
+    {
+      "roast": "IndiGo pe ₹5,200 ek hi flight mein, aur health insurance pe ek rupaya nahi? Beta pehle cover lo, phir udo.",
+      "fix": "Fix: Agli flight se pehle ₹10 lakh ka health cover lo, lagbhag ₹800 mahine ka."
+    },
+    {
+      "roast": "District pe 5 baar going out, ₹4,800, upar se Third Wave pe ₹2,600 ki coffee. Beta in 'experiences' ka koi depreciation schedule nahi hota, sirf balance sheet mein chhed hota hai.",
+      "fix": "Fix: Going out ka fixed budget ₹3,000 mahine ka, usse zyada nahi."
+    }
+  ],
+  "cricket": [
+    {
+      "roast": "Kya opening hai, pehle 10 overs mein ₹31,000, salary ko IPL powerplay bana diya! Aur yeh raha collapse, ₹46,300 pe poori team all out, 97% gone!",
+      "fix": "Fix: Pehle 10 din ka cap ₹12,000, innings aaram se khelo."
+    },
+    {
+      "roast": "Zomato ki bowling dekhiye, 24 deliveries aur ₹8,900 ke runs de diye! Batsman har ball pe crease chhod ke aage aa raha hai, kitchen ki taraf dekh bhi nahi raha!",
+      "fix": "Fix: Zomato ke liye weekly limit ₹1,500, uske baad ghar ka khana."
+    },
+    {
+      "roast": "Amazon pe 6 sixers, ₹14,200 seedha stadium ke bahar! Investment ke column mein ₹0, is batsman ne single lena seekha hi nahi!",
+      "fix": "Fix: Amazon ka monthly cap ₹4,000, baaki wishlist agle mahine."
+    }
+  ],
+  "villain": [
+    {
+      "roast": "Salary aayi ₹48,000, aur main, tumhara kharcha, ₹46,300 utha le gaya. Tumhare account mein ab sirf sannata hai, aur sannata mujhe bahut pasand hai.",
+      "fix": "Fix: Salary aate hi ₹8,000 alag account mein shift karo, mujhse chhupa ke."
+    },
+    {
+      "roast": "ATM se 3 baar cash, ₹5,900, aur koi hisaab nahi. Yeh paisa kahan gaya, yeh raaz sirf main jaanta hoon, aur main kabhi nahi bataunga.",
+      "fix": "Fix: Cash ₹2,000 tak, baaki sab UPI pe taaki trail rahe."
+    },
+    {
+      "roast": "IndiGo pe ₹5,200 ki udaan, District pe ₹4,800 ki raatein. Tum aasmaan mein ud rahe ho, aur tumhari savings zameen mein gad chuki hai.",
+      "fix": "Fix: Trip ke liye ₹2,000 har mahine alag fund mein, pehle bachao phir udo."
+    }
+  ],
+  "shark-tank": [
+    {
+      "roast": "Aapka pitch: ₹48,000 revenue, ₹46,300 burn, aur ₹0 invested. Yeh startup nahi, 97% burn rate wala dhaba hai, I'm out.",
+      "fix": "Fix: Har mahine ₹7,000 emergency fund mein, pehle runway banao."
+    },
+    {
+      "roast": "Zomato pe 24 orders, ₹8,900, Third Wave pe ₹2,600, aapka sabse bada vertical khaana hai aur profit zero. Ek recipe book le lo, woh better investment hai.",
+      "fix": "Fix: Food aur coffee ka combined cap ₹6,000 mahine ka."
+    },
+    {
+      "roast": "Bills and recharges ₹3,500, theek hai, fixed cost hai, main samajhta hoon. Lekin District pe 5 outings, ₹4,800, aapka fun budget aapke Electricity ke ₹2,300 se double hai, deal nahi hogi.",
+      "fix": "Fix: Going out ₹2,500 tak, baaki weekends free plans."
+    }
+  ],
+  "appraisal": [
+    {
+      "roast": "Is cycle mein aapne pehle 10 din mein ₹31,000 deliver kiye, speed of execution outstanding hai. Bas sustainability pe kaam karna hai, kyunki baaki mahina aap bench pe the.",
+      "fix": "Fix: Weekly spend budget ₹9,000, har Monday review."
+    },
+    {
+      "roast": "Investment ka KPI ₹0 raha, jo technically bahut consistent hai. Hum ise 'needs improvement' nahi kahenge, 'growth opportunity' kahenge, aap samajh gaye honge.",
+      "fix": "Fix: Next quarter ka goal: ₹5,000 monthly SIP, salary ke agle din."
+    },
+    {
+      "roast": "Cabs and travel mein ₹6,400, 9 trips, aapki mobility impressive hai. Uber ke ₹1,200 samajh aate hain, lekin IndiGo ka ₹5,200 wala offsite approve kisne kiya tha?",
+      "fix": "Fix: Travel ke liye ₹2,500 ka monthly sinking fund, trip usi se."
+    }
+  ],
+  "jyotishi": [
+    {
+      "roast": "Tumhari kundli mein ₹48,000 ka Guru aata hai, par pehle 10 din mein ₹31,000 ka Rahu use nigal jaata hai. Mahine ke ant tak 97% grahan lag chuka hota hai, bachcha.",
+      "fix": "Fix: Salary ke din hi ₹5,000 SIP ka upay karo, grahan kat jayega."
+    },
+    {
+      "roast": "Main dekh raha hoon, Amazon ke 6 parcel tumhari taraf aa rahe hain, ₹14,200 ka bhaar lekar. Yeh shubh nahi hai, tumhari tijori ki disha hi galat hai.",
+      "fix": "Fix: Amazon pe ₹4,000 ki limit, baaki agle mahine tak wishlist mein."
+    },
+    {
+      "roast": "Tumhari rekha pe 3 ATM withdrawals ka nishaan hai, ₹5,900 hawa mein gayab. Sirf Airtel ₹1,200 aur Electricity ₹2,300 hi tumhari zindagi ke sthir grah hain.",
+      "fix": "Fix: Mahine ka cash ₹2,000 fix karo, baaki sab UPI pe."
+    }
+  ],
+  "hype": [
+    {
+      "roast": "Bhai saare bills time pe bhare, Airtel ₹1,200, Electricity ₹2,300, responsible king! Bas ₹46,300 kharch ke ₹0 invested, yeh king bina khazane ka hai.",
+      "fix": "Fix: Salary wale din ₹3,000 ki SIP, khazana aaj se shuru."
+    },
+    {
+      "roast": "IndiGo pe ₹5,200 ki trip, bhai tu duniya dekh raha hai, full respect! Bas District ke ₹4,800 dekh ke lagta hai tu trip se wapas aake bhi vacation mode mein hi hai.",
+      "fix": "Fix: Agli trip ke liye ₹2,000 har mahine alag rakh, phir bina guilt ghoom."
+    },
+    {
+      "roast": "Pehle 10 din mein ₹31,000, bhai tera confidence unmatched hai, pure main-character energy! Bas baaki mahine tu main character nahi, background extra tha.",
+      "fix": "Fix: Pehle 10 din ka cap ₹15,000, confidence baad ke liye bhi bacha."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "personas": [
+    { "id": "savage-friend", "name": "Savage best friend", "brief": "Brutally honest best friend who roasts but clearly cares." },
+    { "id": "desi-mummy", "name": "Desi mummy", "brief": "An Indian mom taunting her child, comparing them to Sharma ji ka beta, mixing love and disappointment." },
+    { "id": "ca-uncle", "name": "CA uncle at a wedding", "brief": "A chartered accountant uncle at a family wedding, lecturing loudly about savings and tax." },
+    { "id": "cricket", "name": "Cricket commentator", "brief": "An excited cricket commentator describing the spending like a batting collapse." },
+    { "id": "villain", "name": "Bollywood villain", "brief": "A dramatic 90s Bollywood villain delivering filmy dialogue about the spending." },
+    { "id": "shark-tank", "name": "Shark Tank judge", "brief": "A startup investor judging the spending like a terrible business pitch." },
+    { "id": "appraisal", "name": "Corporate appraisal", "brief": "A manager giving a passive-aggressive annual performance review of the spending." },
+    { "id": "jyotishi", "name": "Jyotishi", "brief": "An astrologer predicting the user's financial future from their spending, very dramatic." },
+    { "id": "hype", "name": "Hype mode", "brief": "Hype the user up like a proud friend, praising anything good, but still end with one funny jab." }
+  ],
+  "profiles": [
+    {
+      "id": "swiggy",
+      "name": "Swiggy loyalist",
+      "tagline": "Kitchen is decorative",
+      "salary": 55000,
+      "totalSpent": 19029,
+      "txnCount": 61,
+      "categories": [
+        { "label": "Food delivery", "total": 14860, "count": 38, "merchants": [["Swiggy", 11240], ["Zomato", 3620]] },
+        { "label": "Cabs and travel", "total": 2340, "count": 17, "merchants": [["Rapido", 2340]] },
+        { "label": "Quick commerce", "total": 1180, "count": 5, "merchants": [["Blinkit", 1180]] },
+        { "label": "Subscriptions", "total": 649, "count": 1, "merchants": [["Netflix", 649]] }
+      ],
+      "patterns": [
+        { "text": "11 food orders after midnight", "amount": 4120 },
+        { "text": "9 payments under ₹200" },
+        { "text": "Biggest single payment: ₹1,480 at Swiggy" }
+      ],
+      "percentOfSalary": 35
+    },
+    {
+      "id": "blinkit",
+      "name": "Blinkit night owl",
+      "tagline": "10 minute delivery, 10 minute regret",
+      "salary": 72000,
+      "totalSpent": 22680,
+      "txnCount": 72,
+      "categories": [
+        { "label": "Quick commerce", "total": 12450, "count": 41, "merchants": [["Blinkit", 8930], ["Zepto", 3520]] },
+        { "label": "Cabs and travel", "total": 4210, "count": 12, "merchants": [["Uber", 4210]] },
+        { "label": "Cafes", "total": 3870, "count": 13, "merchants": [["Starbucks", 2960], ["Chaayos", 910]] },
+        { "label": "Food delivery", "total": 2150, "count": 6, "merchants": [["Zomato", 2150]] }
+      ],
+      "patterns": [
+        { "text": "16 payments after midnight", "amount": 5240 },
+        { "text": "14 payments under ₹200" },
+        { "text": "Biggest single payment: ₹1,899 at Blinkit" }
+      ],
+      "percentOfSalary": 32
+    },
+    {
+      "id": "sale",
+      "name": "Sale season shopper",
+      "tagline": "Add to cart is a lifestyle",
+      "salary": 60000,
+      "totalSpent": 36580,
+      "txnCount": 28,
+      "categories": [
+        { "label": "Online shopping", "total": 31780, "count": 11, "merchants": [["Myntra", 16940], ["Amazon", 10450], ["Nykaa", 4390]] },
+        { "label": "Food delivery", "total": 3240, "count": 9, "merchants": [["Swiggy", 3240]] },
+        { "label": "Cabs and travel", "total": 1560, "count": 8, "merchants": [["Ola", 1560]] }
+      ],
+      "patterns": [
+        { "text": "4 orders placed after midnight during the sale", "amount": 9870 },
+        { "text": "3 payments under ₹200" },
+        { "text": "Biggest single payment: ₹7,499 at Myntra" }
+      ],
+      "percentOfSalary": 61
+    },
+    {
+      "id": "subs",
+      "name": "Subscription collector",
+      "tagline": "Seven apps, zero free evenings",
+      "salary": 42000,
+      "totalSpent": 10223,
+      "txnCount": 35,
+      "categories": [
+        { "label": "Food delivery", "total": 4100, "count": 12, "merchants": [["Zomato", 4100]] },
+        { "label": "Subscriptions and fun", "total": 3843, "count": 9, "merchants": [["BookMyShow", 1930], ["Netflix", 649], ["Hotstar", 299], ["SonyLIV", 299], ["Prime Video", 299], ["YouTube Premium", 149], ["Spotify", 119], ["Zee5", 99]] },
+        { "label": "Cafes", "total": 2280, "count": 14, "merchants": [["Chaayos", 2280]] }
+      ],
+      "patterns": [
+        { "text": "7 streaming subscriptions", "amount": 1913 },
+        { "text": "19 payments under ₹200" },
+        { "text": "Biggest single payment: ₹1,120 at BookMyShow" }
+      ],
+      "percentOfSalary": 24
+    },
+    {
+      "id": "salary",
+      "name": "Salary aaya, salary gaya",
+      "tagline": "Rich for exactly 10 days",
+      "salary": 48000,
+      "totalSpent": 46300,
+      "txnCount": 60,
+      "categories": [
+        { "label": "Online shopping", "total": 14200, "count": 6, "merchants": [["Amazon", 14200]] },
+        { "label": "Food delivery", "total": 8900, "count": 24, "merchants": [["Zomato", 8900]] },
+        { "label": "Cabs and travel", "total": 6400, "count": 9, "merchants": [["IndiGo", 5200], ["Uber", 1200]] },
+        { "label": "Cash withdrawals", "total": 5900, "count": 3, "merchants": [["ATM", 5900]] },
+        { "label": "Subscriptions and fun", "total": 4800, "count": 5, "merchants": [["District", 4800]] },
+        { "label": "Bills and recharges", "total": 3500, "count": 3, "merchants": [["Airtel", 1200], ["Electricity", 2300]] },
+        { "label": "Cafes", "total": 2600, "count": 10, "merchants": [["Third Wave", 2600]] }
+      ],
+      "patterns": [
+        { "text": "₹31,000 spent in the first 10 days after salary", "amount": 31000 },
+        { "text": "₹0 invested this month" },
+        { "text": "Biggest single payment: ₹5,200 at IndiGo" }
+      ],
+      "percentOfSalary": 97
+    }
+  ]
+}

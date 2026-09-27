@@ -1,0 +1,47 @@
+{
+  "savage-friend": [
+    { "roast": "Bhai ₹16,940 sirf Myntra pe, tere cupboard ko ab alag flat chahiye. Aur kaafi cheezon pe tag abhi bhi laga hai, main jaanta hoon.", "fix": "Fix: Wishlist mein daal ke 7 din ruk, shopping cap ₹8,000." },
+    { "roast": "4 orders placed after midnight during the sale, ₹9,870. Bhai raat ko tu sale mein shopping nahi karta, sale tujhe shop karti hai, tu sirf OTP daalta hai.", "fix": "Fix: Raat ko cart mein daal, pay subah kar, late-night cap ₹2,000." },
+    { "roast": "₹60,000 salary, 61% kharch, aur tu bolta hai 'sale thi yaar'. Bhai sale unki thi, loss tera hua.", "fix": "Fix: Salary aate hi ₹15,000 alag kar, sale ke liye alag ₹5,000 ka fund." }
+  ],
+  "desi-mummy": [
+    { "roast": "₹10,450 Amazon pe, roz ghar pe parcel aata hai aur padosi poochte hain beta kya business karta hai. Sharma ji ka beta parcel bhejta hai, mangata nahi.", "fix": "Fix: Mahine mein 2 hi orders, Amazon budget ₹3,000." },
+    { "roast": "Myntra pe ₹7,499 ka ek hi order? Itne mein toh mummy ne poore ghar ke parde badal diye the.", "fix": "Fix: ₹3,000 se upar ki cheez ke liye 3 din ruko, pehle mummy se pooch lo." },
+    { "roast": "9 baar Swiggy, ₹3,240, aur mummy ka banaya khana fridge mein pada hai. Sharma ji ka beta tiffin khata hai aur promotion bhi leta hai.", "fix": "Fix: Hafte mein ek hi Swiggy order, budget ₹1,500." }
+  ],
+  "ca-uncle": [
+    { "roast": "Beta, ₹60,000 salary pe ₹36,580 kharch, 61% gaya! Main poori shaadi mein yahi bata raha hoon, koi sun hi nahi raha.", "fix": "Fix: Har mahine ₹12,000 ki SIP, tax ke liye ELSS choose karo." },
+    { "roast": "11 online orders, ₹31,780? Beta yeh depreciating assets hain, kurte ki resale value zero hoti hai.", "fix": "Fix: Shopping budget ₹8,000, baaki ₹20,000 FD mein." },
+    { "roast": "Nykaa ₹4,390, Amazon ₹10,450, sab expense, ek bhi investment nahi. Beta, balance sheet mein asset side khaali hai aur liability side pe Myntra baithi hai.", "fix": "Fix: Har shopping ke barabar amount, kam se kam ₹2,000, index fund mein." }
+  ],
+  "cricket": [
+    { "roast": "Aur Myntra pe ₹7,499 ka SIX, ball stadium ke bahar! Crowd paagal ho gaya, aur salary pavilion ki taraf chal padi.", "fix": "Fix: Ek purchase ₹3,000 se upar nahi, sale ho ya na ho." },
+    { "roast": "4 orders after midnight during the sale, ₹9,870, yeh death overs ki slogging hai! Har ball pe bada shot, aur savings ke scoreboard pe zero.", "fix": "Fix: Sale ke din card app mein ₹5,000 ki limit laga do." },
+    { "roast": "Ola pe 8 rides, ₹1,560, quick singles aaram se chal rahe hain. Par dusre end pe Amazon ₹10,450 ke saath run out karwa raha hai!", "fix": "Fix: Amazon cart har Sunday clear karo, budget ₹3,000." }
+  ],
+  "villain": [
+    { "roast": "₹31,780 online shopping pe, sale ka naam sunte hi tumhara card khud nikal aata hai, bachhe! Yeh sale nahi thi, mera bichhaya hua jaal tha.", "fix": "Fix: Saved cards hata do, shopping cap ₹8,000." },
+    { "roast": "Myntra ko ₹16,940 dekar tumne apni salary ka takht kho diya. Ab is mahine ka baaki hissa mere kabze mein hai, hahaha!", "fix": "Fix: Myntra app uninstall, sirf wishlist, budget ₹5,000." },
+    { "roast": "Ek mahine mein 61% salary saaf? Mogambo ne bhi itna bada heist kabhi plan nahi kiya.", "fix": "Fix: Salary ke din ₹20,000 alag account mein band karo." }
+  ],
+  "shark-tank": [
+    { "roast": "₹60,000 revenue, ₹36,580 burn, aur saara capex kapdon mein? Yeh company nahi, Myntra ka unpaid brand ambassador hai.", "fix": "Fix: Burn ₹25,000 pe laao, baaki runway mein." },
+    { "roast": "Myntra ₹16,940, Amazon ₹10,450, Nykaa ₹4,390, vendors bahut, negotiation power zero. Main out, aur mere saath tumhara bank balance bhi out.", "fix": "Fix: Ek hi platform chuno, total shopping ₹8,000." },
+    { "roast": "Sirf 3 payments under ₹200, chhote kharchon pe tum frugal ho, respect. Problem yeh hai ki bade tickets pe tum founder nahi, VC ki tarah paisa uda rahe ho.", "fix": "Fix: ₹2,000 se upar ki har kharid pe 48 ghante ruko." }
+  ],
+  "appraisal": [
+    { "roast": "Aapne 11 online shopping orders ko ₹31,780 tak scale kiya, initiative commendable hai. Lekin company ka objective savings tha, cart nahi.", "fix": "Fix: Next quarter goal: shopping ₹10,000 ke andar." },
+    { "roast": "Midnight sale mein 4 orders, ₹9,870, aap after-hours bhi available rehte ho. Par yeh overtime company ke liye nahi, Myntra ke liye tha.", "fix": "Fix: Raat 11 ke baad payments band, late-night cap ₹1,000." },
+    { "roast": "Swiggy pe 9 orders, ₹3,240, is area mein aap 'meets expectations' ho. Baaki areas ke liye hum ek PIP discuss karenge.", "fix": "Fix: PIP target: total spend ₹28,000 ke andar." }
+  ],
+  "jyotishi": [
+    { "roast": "Tumhari kundli mein Shukra ₹16,940 ke Myntra ke saath yuti kar raha hai, vastra yog bahut prabal hai. Par dhan bhav khaali hai, agle mahine EMI ka sankat saaf dikh raha hai.", "fix": "Fix: Upay: sale ke din card ghar pe chhodo, shopping ₹8,000 tak." },
+    { "roast": "4 orders after midnight during the sale, ₹9,870, jab Chandrama uchcha pe tha tab tumne cart khaali kiya aur khaata bhi. Yeh sale ka nahi, Rahu ka khel hai.", "fix": "Fix: Upay: raat 12 ke baad phone door rakho, late-night cap ₹1,000." },
+    { "roast": "Ola pe 8 yatraayein, ₹1,560, yeh toh chhota dosh hai. Asli sankat Amazon ke ₹10,450 se aa raha hai, main parcel pe parcel dekh raha hoon.", "fix": "Fix: Upay: Amazon order sirf mahine ki pehli tareekh, budget ₹3,000." }
+  ],
+  "hype": [
+    { "roast": "Ola pe sirf ₹1,560, travel pe itna control, bhai tu budget king hai! Bas Myntra ne ₹16,940 le ke crown pe discount laga diya.", "fix": "Fix: Ola wala control Myntra pe laga, cap ₹5,000." },
+    { "roast": "Swiggy pe sirf ₹3,240, food pe discipline dekh ke mera dil bhar aaya! Par 61% salary gayi, toh baaki dil Amazon ne tod diya.", "fix": "Fix: Next month total spend ₹30,000 ke andar, phir party." },
+    { "roast": "Sirf 3 payments under ₹200, faltu chhote kharche almost zero, legend move! Bas ₹7,499 ka ek Myntra order dekh ke legend bhi sale mein chala gaya.", "fix": "Fix: ₹3,000 se upar ka order 3 din wishlist mein rakho." }
+  ]
+}

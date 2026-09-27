@@ -1,0 +1,47 @@
+{
+  "savage-friend": [
+    { "roast": "Bhai, ₹11,240 sirf Swiggy pe? Tera delivery wala tujhse behtar tere ghar ka rasta jaanta hai.", "fix": "Fix: Swiggy ka monthly cap ₹6,000 rakh, weekend pe khud kuch bana." },
+    { "roast": "11 food orders after midnight, total ₹4,120. Bhai tu so nahi raha, tu Swiggy ka night shift manager ban gaya hai.", "fix": "Fix: Dinner ke baad app logout kar, late-night budget ₹1,500 max." },
+    { "roast": "17 baar Rapido, ₹2,340 gaye. Tu chalta kam hai, pillion pe zyada baithta hai.", "fix": "Fix: 2 km tak paidal chal, Rapido budget ₹1,200 pe rok." }
+  ],
+  "desi-mummy": [
+    { "roast": "₹14,860 ka khana bahar se mangaya, aur ghar ka dal-chawal tujhe boring lagta hai? Sharma ji ka beta tiffin leke jaata hai aur uski FD bhi hai.", "fix": "Fix: Hafte mein 4 din ghar ka khana, food delivery ₹7,000 tak." },
+    { "roast": "₹55,000 kamate ho aur 35% seedha kharch, woh bhi zyada tar Swiggy pe. Sharma ji ka beta itne mein SIP bhi karta hai aur mummy ko saree bhi dilata hai.", "fix": "Fix: Salary aate hi ₹10,000 ka SIP auto-debit set karo, phir kharch karo." },
+    { "roast": "11 food orders after midnight, ₹4,120 ka khana? Beta, mummy ne tujhe jaldi sone ko bola tha, Swiggy wale ko jaldi aane ko nahi.", "fix": "Fix: Raat ka khana 10 baje tak, late-night orders ka budget ₹1,000." }
+  ],
+  "ca-uncle": [
+    { "roast": "Arre beta, 61 transactions mein ₹19,029 uda diye, aur ELSS ka naam bhi nahi suna? Maine poori zindagi balance sheet dekhi hai, aisi kabhi nahi dekhi.", "fix": "Fix: Har mahine ₹5,000 ELSS SIP mein, tax bhi bachega." },
+    { "roast": "9 payments under ₹200, beta yeh chhote kharche hi balance sheet ko deemak ki tarah khaate hain. Shaadi ka khana free hai, isliye main yahan kha raha hoon, Swiggy pe nahi.", "fix": "Fix: ₹200 se chhoti UPI payments ka weekly limit ₹500 rakho." },
+    { "roast": "Swiggy ₹11,240 aur Zomato ₹3,620, dono apps pe account? Beta, diversification mutual fund mein karte hain, biryani mein nahi.", "fix": "Fix: Ek app uninstall karo, aur bache ₹3,000 recurring deposit mein daalo." }
+  ],
+  "cricket": [
+    { "roast": "Aur yeh gaya SIX, ₹1,480 ka single Swiggy order seedha stands mein! Wallet fielding kar raha tha, bas dekhta reh gaya.", "fix": "Fix: Single order limit ₹500, bade orders sirf weekend pe." },
+    { "roast": "38 food delivery orders, ₹14,860, yeh batting collapse nahi, poori innings ka surrender hai! Kitchen pavilion mein baitha raha, ek ball bhi nahi khela.", "fix": "Fix: Hafte mein sirf 5 delivery orders, food budget ₹8,000." },
+    { "roast": "17 Rapido rides, har baar quick single, scoreboard pe ₹2,340! Paidal chalna toh pehle hi retire hurt ho gaya.", "fix": "Fix: Chhoti doori paidal ya metro se, Rapido ₹1,200 tak." }
+  ],
+  "villain": [
+    { "roast": "Mogambo khush hua, ₹11,240 Swiggy ko dekar tumne apna kitchen khud barbaad kar diya. Ab yeh ghar tumhara nahi, Swiggy ka ilaaka hai!", "fix": "Fix: Swiggy ka cap ₹6,000, warna Mogambo har order ka hisaab lega." },
+    { "roast": "Raat ke andhere mein 11 food orders after midnight, ₹4,120. Tum samajhte ho koi nahi dekh raha, par bank ka SMS sab dekhta hai!", "fix": "Fix: Raat 12 ke baad sirf paani, late-night budget ₹1,000." },
+    { "roast": "₹55,000 ki salary ka 35% ek mahine mein kha gaye aur ab puchte ho, kitne aadmi the? Sirf ek, Swiggy wala!", "fix": "Fix: Salary aate hi ₹12,000 alag savings account mein daal do." }
+  ],
+  "shark-tank": [
+    { "roast": "Tumhara business model hai: ₹55,000 kamao aur ₹14,860 food delivery ko de do. Main is pitch se out hoon, Swiggy ka investor zaroor in hoga.", "fix": "Fix: Food delivery ko ₹8,000 pe cap karo, savings ki valuation badhegi." },
+    { "roast": "9 payments under ₹200, yeh burn rate nahi, slow leak hai. Tumhare unit economics dekh ke mujhe chai chahiye, woh bhi ghar ki.", "fix": "Fix: Chhoti payments ke liye weekly ₹600 ka wallet banao, khatam toh khatam." },
+    { "roast": "Blinkit pe 5 orders, ₹1,180, aur upar se Netflix ₹649. Product-market fit mil gaya: sofa se uthna nahi hai, sab ghar pe chahiye.", "fix": "Fix: Grocery hafte mein ek baar list bana ke lo, Blinkit budget ₹600." }
+  ],
+  "appraisal": [
+    { "roast": "61 transactions mein ₹19,029 spend, output consistent hai, bas direction galat hai. Hum ise positive note pe 'needs improvement' mark kar rahe hain.", "fix": "Fix: Next quarter KPI: monthly spend ₹15,000 ke andar." },
+    { "roast": "Swiggy pe ₹11,240 aur Zomato pe ₹3,620, cross-functional collaboration impressive hai. Bas yahi collaboration savings team ke saath bhi dikhna chahiye tha.", "fix": "Fix: Food delivery target ₹9,000, har Sunday khud ke saath review." },
+    { "roast": "17 Rapido rides, ₹2,340, aapki mobility strong hai. Lekin 'going the extra mile' budget ke liye tha, bike pe nahi.", "fix": "Fix: Rapido ka monthly cap ₹1,500, baaki metro." }
+  ],
+  "jyotishi": [
+    { "roast": "Tumhari kundli mein Swiggy ₹11,240 ke saath uchcha ka baitha hai, aur bank balance neech ka. Mahine ke aakhri hafte mein saaf-saaf Maggi yog ban raha hai.", "fix": "Fix: Grah shaanti ka upay: Swiggy ₹6,000 se zyada nahi." },
+    { "roast": "11 food orders after midnight, ₹4,120, yeh Rahu kaal nahi, Swiggy kaal hai. Upay nahi kiya toh agle mahine yeh sankhya aur badhegi, main likh ke deta hoon.", "fix": "Fix: Upay: raat 11 baje phone dusre kamre mein charge karo, late-night budget ₹1,000." },
+    { "roast": "17 Rapido yatraayein, ₹2,340, tumhari kundli mein yatra yog prabal hai par paidal yog gayab. Shani ki drishti seedha tumhare wallet pe hai.", "fix": "Fix: Budhwar aur Shanivaar paidal chalo, Rapido ₹1,200 tak." }
+  ],
+  "hype": [
+    { "roast": "Bhai sirf ek subscription, Netflix ₹649, jab baaki duniya saare OTT pe paisa jala rahi hai, tu legend hai! Bas Swiggy ko bhi subscription maan ke ₹11,240 mat de.", "fix": "Fix: Swiggy ka cap ₹7,000, Netflix wala discipline wahan bhi." },
+    { "roast": "₹55,000 mein se sirf 35% kharch, matlab baaki paisa bacha hai, king behaviour! Bas 11 food orders after midnight ne crown thoda tircha kar diya.", "fix": "Fix: Bache paison se ₹8,000 seedha SIP mein, crown seedha." },
+    { "roast": "Blinkit pe sirf ₹1,180, quick commerce pe itna control, full respect! Kaash yahi discipline Swiggy ke ₹11,240 mein bhi dikhta.", "fix": "Fix: Blinkit wala control Swiggy pe laga, target ₹7,000." }
+  ]
+}

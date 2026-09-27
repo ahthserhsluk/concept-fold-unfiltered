@@ -1,0 +1,47 @@
+{
+  "savage-friend": [
+    { "roast": "Bhai ₹8,930 Blinkit pe, tu ghar pe rehta hai ya Blinkit ke dark store ke upar? Delivery wale ab tujhe regular customer wali chai offer karte honge.", "fix": "Fix: Hafte ki grocery Sunday ko ek baar le, Blinkit cap ₹4,000." },
+    { "roast": "16 payments after midnight, ₹5,240, bhai raat ko tu sota nahi, sirf checkout karta hai. Log mood off hone pe gaane sunte hain, tu Zepto kholta hai.", "fix": "Fix: Bank app mein raat ki UPI limit ₹500 set kar de." },
+    { "roast": "₹2,960 Starbucks pe aur ₹910 Chaayos pe, tera coffee budget kisi ki SIP se bada hai. Cup pe naam galat likhte hain, phir bhi tu wahi jaata hai.", "fix": "Fix: Office mein coffee bana, cafe sirf weekend, budget ₹1,500." }
+  ],
+  "desi-mummy": [
+    { "roast": "41 baar Blinkit-Zepto se saaman mangaya, neeche wale kirana uncle roz poochte hain tu theek toh hai? Sharma ji ka beta mahine ka ration ek baar mein laata hai.", "fix": "Fix: Mahine ka ration list bana ke ek baar lo, quick commerce ₹5,000 tak." },
+    { "roast": "Uber pe 12 rides, ₹4,210? Metro ke paas flat isliye liya tha ki tu Uber mein ghoome?", "fix": "Fix: Office metro se jao, Uber sirf baarish mein, budget ₹2,000." },
+    { "roast": "₹72,000 kamata hai aur 32% phoonk diya, woh bhi zyada tar raat ko. Sharma ji ka beta raat ko padhai karta tha, tu ₹1,899 ka Blinkit order karta hai.", "fix": "Fix: Salary aate hi ₹15,000 RD mein daalo, mummy khush." }
+  ],
+  "ca-uncle": [
+    { "roast": "Beta, ek mahine mein 72 transactions aur ₹22,680 kharcha! Itni entries toh meri firm ke poore audit mein nahi hoti.", "fix": "Fix: Har mahine ₹10,000 PPF ya ELSS mein, tax bhi bachega." },
+    { "roast": "14 payments under ₹200, beta asli leakage yahi chhote UPI hain. Shaadi mein dekho, main shagun ka lifafa bhi hisaab laga ke deta hoon.", "fix": "Fix: ₹200 se chhoti payments ka weekly budget ₹500." },
+    { "roast": "Starbucks pe ₹2,960? Beta itne mein ghar ki chai saal bhar chalti, aur bache paise pe tax-free interest aata.", "fix": "Fix: Cafe budget ₹1,500, baaki paisa liquid fund mein." }
+  ],
+  "cricket": [
+    { "roast": "Kya shot hai, ₹1,899 ka single Blinkit order, seedha boundary ke paar! Third umpire ne replay dekha aur khud bhi order kar diya.", "fix": "Fix: ₹800 se upar ka order ho toh cart 1 ghanta hold karo." },
+    { "roast": "16 payments after midnight, ₹5,240, yeh toh day-night Test ka night session chal raha hai! Wickets gir rahe hain, par batsman crease chhodne ko taiyaar nahi.", "fix": "Fix: Raat 12 ke baad apps logout, late-night cap ₹1,500." },
+    { "roast": "Uber pe 12 rides, ₹4,210, har ball pe run out ka khatra! Commentary box se saaf dikh raha hai, wallet pavilion wapas ja raha hai.", "fix": "Fix: Hafte mein 2 din metro, Uber budget ₹2,500." }
+  ],
+  "villain": [
+    { "roast": "Blinkit ko ₹8,930 aur Zepto ko ₹3,520, tum dono gang ko hafta de rahe ho! Is shehar ka asli don tum nahi, tumhara cart hai.", "fix": "Fix: Ek hi app rakho, quick commerce ₹5,000 tak." },
+    { "roast": "₹72,000 ki salary ka 32% gaya aur tumhe laga main nahi dekhunga? Main villain hoon, par aisi chaal toh maine bhi kabhi nahi chali.", "fix": "Fix: Salary day pe ₹15,000 alag account mein, phir chaal chalo." },
+    { "roast": "Chaayos pe ₹910 aur Starbucks pe ₹2,960, chai ko thukra ke coffee ki taraf gaye, yeh gaddari hai! Is kahani ka ant ek hi hai: EMI pe cappuccino.", "fix": "Fix: Cafes ko ₹1,500 pe roko, baaki thermos mein ghar ki chai." }
+  ],
+  "shark-tank": [
+    { "roast": "41 quick commerce orders, ₹12,450, yeh startup nahi, Blinkit ka loyalty program hai. Main out, kyunki tumhara revenue model hai: sab kuch doosron ko de do.", "fix": "Fix: Quick commerce ₹5,000 pe cap, weekly bulk order karo." },
+    { "roast": "72 transactions, ₹22,680 burn, aur savings kitni? Zero savings pe koi term sheet nahi milti, bhai.", "fix": "Fix: Har mahine ₹15,000 save karo, phir pitch karna." },
+    { "roast": "Zomato pe sirf 6 orders, ₹2,150, yeh tumhara ek profitable vertical hai. Baaki company shut down karo aur isi pe focus karo.", "fix": "Fix: Zomato wala discipline Blinkit pe, cap ₹4,000." }
+  ],
+  "appraisal": [
+    { "roast": "Is quarter aapne 16 payments after midnight kiye, ₹5,240, ownership clearly dikh rahi hai. Bas work-life balance bhi dikhna chahiye tha, especially life wala part.", "fix": "Fix: Raat 12 ke baad no-spend policy, late-night cap ₹1,000." },
+    { "roast": "Cafes pe 13 visits, ₹3,870, networking ke liye hum appreciate karte hain. Feedback bas itna hai ki meetings ka ROI zero hai aur cup ka size bada.", "fix": "Fix: Cafe hafte mein 1 baar, budget ₹1,500." },
+    { "roast": "Blinkit pe biggest ticket ₹1,899, initiative strong hai aur execution bahut fast. Direction ke liye hum aapko budget training ke liye nominate kar rahe hain.", "fix": "Fix: Single order limit ₹700, usse upar ka next day tak ruko." }
+  ],
+  "jyotishi": [
+    { "roast": "Tumhari kundli mein Blinkit ₹8,930 ke saath lagna mein baitha hai, har raat kuch na kuch mangwayega. Aane wale grahan mein wallet pe kaala saaya saaf dikh raha hai.", "fix": "Fix: Upay: Blinkit home screen se hatao, cap ₹4,000." },
+    { "roast": "16 payments after midnight, ₹5,240, yeh Chandrama ki kharab dasha hai. Jab tak raat ko phone haath mein hai, paisa tikne ka yog nahi banega.", "fix": "Fix: Upay: raat 12 ke baad phone airplane mode pe, late-night cap ₹1,000." },
+    { "roast": "Uber pe 12 yatraayein, ₹4,210, tumhari kundli mein yatra yog prabal hai par metro yog gayab. Agle mahine yatra kharch aur badhega, main likh ke deta hoon.", "fix": "Fix: Mangal aur Guruvaar metro, Uber ₹2,500 tak." }
+  ],
+  "hype": [
+    { "roast": "₹72,000 kamata hai aur sirf 32% kharch, bhai baaki paisa bacha hai, CEO energy! Bas 16 payments after midnight dekh ke lagta hai CEO sota hi nahi.", "fix": "Fix: Bache paise se ₹15,000 ka SIP abhi set kar, proper CEO ban." },
+    { "roast": "Zomato pe sirf ₹2,150, food delivery pe itna control, bhai tu inspiration hai! Bas woh bachaya paisa Blinkit ko ₹8,930 mein de diya, twist ending.", "fix": "Fix: Blinkit ko bhi Zomato wala treatment, cap ₹4,000." },
+    { "roast": "Chaayos pe sirf ₹910, desi chai ka loyal, proud of you! Starbucks ke ₹2,960 ne brand image thoda kharab kiya, par chal, maaf kiya.", "fix": "Fix: Starbucks mahine mein 2 baar, cafe budget ₹1,500." }
+  ]
+}
