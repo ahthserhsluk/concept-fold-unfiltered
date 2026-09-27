@@ -207,3 +207,22 @@
 
   init();
 })();
+
+// "Why Fold" bottom sheet on phones (inline block on desktop)
+(() => {
+  const btn = document.querySelector('.why-btn');
+  const sheet = document.getElementById('why');
+  const scrim = document.querySelector('.scrim');
+  const close = document.querySelector('.why-close');
+  if (!btn || !sheet) return;
+  const set = (open) => {
+    sheet.classList.toggle('open', open);
+    scrim.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) close.focus(); else btn.focus();
+  };
+  btn.addEventListener('click', () => set(true));
+  close.addEventListener('click', () => set(false));
+  scrim.addEventListener('click', () => set(false));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && sheet.classList.contains('open')) set(false); });
+})();

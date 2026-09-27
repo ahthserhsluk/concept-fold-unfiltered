@@ -163,6 +163,14 @@ select option { color: #171412; background: #fff; }
   margin-top: clamp(18px, 4.5vh, 40px);
 }
 
+.why { margin-top: clamp(16px, 3.6vh, 32px); padding-top: clamp(12px, 2.4vh, 20px); border-top: 1px solid var(--rule); }
+.why-top { display: flex; align-items: center; justify-content: space-between; }
+.why-h { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.why-list { list-style: none; padding: 0; margin-top: clamp(8px, 1.6vh, 12px); display: flex; flex-direction: column; gap: clamp(4px, 1vh, 8px); }
+.why-list li { position: relative; padding-left: 18px; font-size: clamp(14px, 2.2vh, 16px); color: var(--ink-2); }
+.why-list li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+.why-btn, .why-close, .scrim { display: none; }
+
 /* ---------- Spender switcher ---------- */
 .switcher {
   flex: none; height: var(--sw-h); width: max(100%, 280px);
@@ -347,9 +355,30 @@ select option { color: #171412; background: #fff; }
   .lock-foot { height: calc(var(--u) * 15); padding-top: 0; }
   .lf-btn { width: calc(var(--u) * 9.5); height: calc(var(--u) * 9.5); }
   .masthead { grid-area: head; display: flex; align-items: center; justify-content: center; gap: 10px; }
-  .tag { font-size: 12px; padding: 2px 8px; align-self: center; }
-  h1 { font-size: 20px; margin: 0; }
+  .masthead { gap: 8px; }
+  .tag { font-size: 10.5px; padding: 2px 7px; align-self: center; white-space: nowrap; letter-spacing: .06em; }
+  h1 { font-size: clamp(17px, 5vw, 20px); margin: 0; white-space: nowrap; }
   .dek, .pull { display: none; }
+
+  .why-btn {
+    display: inline-block; font: inherit; font-size: 12px; font-weight: 600; color: var(--accent); white-space: nowrap;
+    background: none; border: 0; padding: 4px 2px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+  }
+  .why {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; margin: 0;
+    background: var(--surface); border-top: 1px solid var(--rule); border-radius: 20px 20px 0 0;
+    padding: 18px 20px calc(22px + env(safe-area-inset-bottom));
+    transform: translateY(105%); transition: transform .25s ease; visibility: hidden;
+  }
+  .why.open { transform: none; visibility: visible; }
+  .why-close {
+    display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%;
+    background: none; border: 1px solid var(--rule); color: var(--ink-2); cursor: pointer;
+  }
+  .why-close svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 2; fill: none; }
+  .why-list li { font-size: 15px; }
+  .scrim { display: block; position: fixed; inset: 0; z-index: 19; background: rgba(0,0,0,.45); }
+  .scrim[hidden] { display: none; }
 
   .steps {
     grid-area: steps; margin: 0;
@@ -374,5 +403,5 @@ select option { color: #171412; background: #fff; }
 @media (prefers-reduced-motion: reduce) {
   .notifs li.enter { opacity: 1; animation: none; }
   .notif[aria-expanded="true"] .n-fix { animation: none; }
-  .notif, .icon-btn, select { transition: none; }
+  .notif, .icon-btn, select, .why { transition: none; }
 }
