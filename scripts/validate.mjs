@@ -4,6 +4,8 @@
 // - each file has all persona ids, exactly 3 { roast, fix } entries each
 // - fix starts with "Fix:", no emojis or hashtags anywhere
 // - every number in a roast exists in that profile's data (strict)
+// - moments.json: 15 moments (3 per profile, in order), valid profile/persona ids,
+//   all 9 persona keys with index 0-2, numbers in title exist in the profile
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -115,6 +117,73 @@ for (const p of data.profiles) {
   console.log(`  ${count} roasts, ${n === 0 ? "ok" : n + " problem(s)"}`);
 }
 
-console.log(`\n${totalRoasts} roasts checked across ${profileIds.length} profiles.`);
+// ---------- moments.json ----------
+// 15 moments (3 per profile, in profiles.json order), valid profile + persona ids,
+// all 9 persona keys with an index 0-2, and every number in `title` exists in the profile.
+console.log("moments.json");
+const momentsBefore = failures;
+const momentsFile = readJSON(join(dataDir, "moments.json"));
+let momentCount = 0;
+if (momentsFile.__error) fail("moments.json", `missing or invalid JSON: ${momentsFile.__error}`);
+else if (!Array.isArray(momentsFile.moments)) fail("moments.json", `expected { "moments": [...] }`);
+else {
+  const moments = momentsFile.moments;
+  momentCount = moments.length;
+  if (moments.length !== 15) fail("moments.json", `${moments.length} moments, expected 15`);
+  const ids = new Set();
+  const order = [];
+  moments.forEach((m, i) => {
+    const where = `moments.json [${i}]${m && m.id ? " " + m.id : ""}`;
+    if (!m || typeof m !== "object") { fail(where, "moment is not an object"); return; }
+    for (const k of ["id", "profile", "time", "trigger", "title", "persona"]) {
+      if (typeof m[k] !== "string" || !m[k].trim()) fail(where, `${k} missing or empty`);
+    }
+    if (ids.has(m.id)) fail(where, `duplicate id "${m.id}"`);
+    ids.add(m.id);
+    const p = data.profiles.find((x) => x.id === m.profile);
+    if (!p) fail(where, `unknown profile "${m.profile}"`);
+    else order.push(m.profile);
+    if (!personaIds.includes(m.persona)) fail(where, `unknown persona "${m.persona}"`);
+    if (!m.roasts || typeof m.roasts !== "object" || Array.isArray(m.roasts)) fail(where, "roasts must be an object");
+    else {
+      for (const key of Object.keys(m.roasts)) if (!personaIds.includes(key)) fail(where, `roasts has unknown persona "${key}"`);
+      for (const pid of personaIds) {
+        const v = m.roasts[pid];
+        if (!Number.isInteger(v) || v < 0 || v > 2) fail(where, `roasts["${pid}"] must be an integer 0-2, got ${JSON.stringify(v)}`);
+      }
+    }
+    for (const [name, text] of [["title", m.title], ["trigger", m.trigger], ["time", m.time]]) {
+      if (typeof text !== "string") continue;
+      if (EMOJI.test(text)) fail(where, `${name} contains an emoji`);
+      if (/(^|\s)#\w/u.test(text)) fail(where, `${name} contains a hashtag`);
+    }
+    if (typeof m.title === "string") {
+      if (m.title.length > 44) fail(where, `title is ${m.title.length} chars, keep it under ~40`);
+      if (p) {
+        const allowed = allowedSet(p);
+        for (const n of numbersIn(m.title)) {
+          if (!allowed.has(n.value)) fail(where, `title number ${n.raw} (${n.value}) not in profile data -> "${m.title}"`);
+        }
+      }
+      for (const mm of m.title.matchAll(/₹\s?(?:\d[\d,]*\d|\d)/g)) {
+        const digits = mm[0].replace(/₹\s?/, "");
+        const expect = new Intl.NumberFormat("en-IN").format(Number(digits.replace(/,/g, "")));
+        if (digits !== expect) fail(where, `rupee format "${mm[0]}" should be "₹${expect}"`);
+      }
+    }
+  });
+  for (const pid of profileIds) {
+    const n = moments.filter((m) => m && m.profile === pid).length;
+    if (n !== 3) fail("moments.json", `profile "${pid}" has ${n} moments, expected 3`);
+  }
+  const expectedOrder = [...order].sort((a, b) => profileIds.indexOf(a) - profileIds.indexOf(b));
+  if (order.join() !== expectedOrder.join()) fail("moments.json", "moments are not grouped in profiles.json order");
+}
+{
+  const n = failures - momentsBefore;
+  console.log(`  ${momentCount} moments, ${n === 0 ? "ok" : n + " problem(s)"}`);
+}
+
+console.log(`\n${totalRoasts} roasts and ${momentCount} moments checked across ${profileIds.length} profiles.`);
 if (failures) { console.error(`${failures} failure(s).`); process.exit(1); }
 console.log("All checks passed.");

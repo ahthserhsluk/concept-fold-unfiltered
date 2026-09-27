@@ -2,73 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Paisa Dost — Hinglish money roasts</title>
-  <meta name="description" content="Pick a spender, pick a persona, get their month roasted in Hinglish. A concept for Fold. All data is fictional.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fold Unfiltered — a concept</title>
+  <meta name="description" content="Fold Unfiltered: lock-screen notifications that roast your spending in Hinglish and end with one fix. A concept for Fold. All data is fictional.">
   <meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)">
   <!-- After deploy, replace relative og.png / URLs below with absolute ones (e.g. https://<your-domain>/og.png). -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Paisa Dost — Hinglish money roasts">
-  <meta property="og:description" content="Your spending, roasted in Hinglish. A concept for Fold.">
+  <meta property="og:title" content="Fold Unfiltered — a concept">
+  <meta property="og:description" content="Be painfully aware, in Hinglish. Spending roasts as lock-screen notifications, each with one fix.">
   <meta property="og:image" content="og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fold Unfiltered: a lock-screen notification roasting ₹11,240 spent on Swiggy, in Hinglish.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Paisa Dost — Hinglish money roasts">
-  <meta name="twitter:description" content="Your spending, roasted in Hinglish. A concept for Fold.">
+  <meta name="twitter:title" content="Fold Unfiltered — a concept">
+  <meta name="twitter:description" content="Be painfully aware, in Hinglish. Spending roasts as lock-screen notifications, each with one fix.">
   <meta name="twitter:image" content="og.png">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c2410c'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='700' text-anchor='middle' fill='%23fff'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232a2826'/%3E%3Ctext x='32' y='44' font-family='system-ui,Arial,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='%23fff'%3EF%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip" href="#roast">Skip to the roast</a>
+  <a class="skip" href="#notifs">Skip to the notifications</a>
   <div class="page">
-    <header class="masthead">
-      <p class="tag">Concept for Fold</p>
-      <h1>Paisa Dost</h1>
-      <p class="dek">Your spending, roasted in Hinglish.</p>
-    </header>
+    <main class="layout">
+      <header class="masthead">
+        <p class="tag">Concept for Fold</p>
+        <h1>Fold Unfiltered</h1>
+        <p class="dek">Be painfully aware, in Hinglish.</p>
+        <p class="intro">What if your money app texted you like a friend who has seen your bank statement? Three notifications from one fictional month. Tap one to read it.</p>
+      </header>
 
-    <main>
-      <section aria-labelledby="h-spender">
-        <h2 id="h-spender" class="kicker"><span class="num">01</span> Pick a spender</h2>
-        <div class="spenders" id="spenders" role="group" aria-label="Spender profiles"></div>
+      <section class="stage" aria-label="Phone lock screen preview">
+        <div class="phone">
+          <span class="phone-btn phone-btn-l1" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-l2" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-r" aria-hidden="true"></span>
+          <div class="screen">
+            <div class="statusbar" aria-hidden="true">
+              <span class="sb-left"></span>
+              <span class="island"></span>
+              <span class="sb-right">
+                <svg viewBox="0 0 18 12" class="ic-signal"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+                <svg viewBox="0 0 16 12" class="ic-wifi"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.5 6.9a6.4 6.4 0 0 1 9 0l-1.4 1.4a4.4 4.4 0 0 0-6.2 0zM1.3 4.7a9.5 9.5 0 0 1 13.4 0l-1.4 1.4a7.5 7.5 0 0 0-10.6 0z"/></svg>
+                <svg viewBox="0 0 27 12" class="ic-batt"><rect x=".5" y=".5" width="23" height="11" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="16" height="8" rx="1.8"/><rect x="24.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg>
+              </span>
+            </div>
+
+            <div class="lock" aria-hidden="true">
+              <svg viewBox="0 0 12 16" class="ic-lock"><path d="M3 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="1" y="7" width="10" height="8" rx="2"/></svg>
+              <p class="lock-date">Saturday, 27 September</p>
+              <p class="lock-time">9:41</p>
+            </div>
+
+            <ol class="notifs" id="notifs" aria-label="Notifications" tabindex="-1"></ol>
+
+            <div class="lock-foot" aria-hidden="true">
+              <span class="lf-btn"><svg viewBox="0 0 24 24"><path d="M7.5 2h9v3.2L14.5 8.5V20a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8.5L7.5 5.2z"/></svg></span>
+              <span class="lf-btn"><svg viewBox="0 0 24 24"><path d="M4 8a2 2 0 0 1 2-2h2l1.5-2h5L16 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.5" r="3.4" fill="var(--wp-2)"/></svg></span>
+              <span class="home-bar"></span>
+            </div>
+          </div>
+        </div>
+        <p class="caption" id="caption">&nbsp;</p>
+        <p class="hint">Tap a notification to open it. All data is fictional.</p>
       </section>
 
-      <section aria-labelledby="h-month" class="month">
-        <h2 id="h-month" class="kicker"><span class="num">02</span> Their month</h2>
-        <div id="month" aria-live="polite"></div>
-      </section>
-
-      <section aria-labelledby="h-persona">
-        <h2 id="h-persona" class="kicker"><span class="num">03</span> Pick who roasts them</h2>
-        <div class="chips" id="personas" role="group" aria-label="Roast personas"></div>
-      </section>
-
-      <section aria-labelledby="h-roast">
-        <h2 id="h-roast" class="kicker"><span class="num">04</span> The roast</h2>
-        <article class="roast-card" id="roast" tabindex="-1" aria-live="polite">
-          <p class="roast-persona" id="roast-persona"></p>
-          <blockquote class="roast-text" id="roast-text">Loading…</blockquote>
-          <p class="roast-fix" id="roast-fix"></p>
-          <p class="roast-meta" id="roast-meta"></p>
-        </article>
+      <section class="controls" aria-labelledby="h-voice">
+        <h2 id="h-voice" class="kicker">Pick a voice</h2>
+        <div class="chips" id="personas" role="group" aria-label="Roast voice"></div>
         <div class="actions">
-          <button type="button" class="btn btn-primary" id="btn-next">Another one</button>
+          <button type="button" class="btn btn-primary" id="btn-next">Next spender</button>
           <button type="button" class="btn" id="btn-share">Share</button>
           <button type="button" class="btn" id="btn-save">Save image</button>
         </div>
       </section>
 
-      <section aria-labelledby="h-why" class="why">
-        <h2 id="h-why" class="kicker"><span class="num">05</span> Why this, why Fold</h2>
+      <section class="pitch" aria-labelledby="h-why">
+        <h2 id="h-why" class="kicker">Why this, why Fold</h2>
         <ul class="why-list">
-          <li><strong>Retention.</strong> A monthly roast is a reason to open the app that isn't a bill or a warning. People come back to see what they'll be called this time.</li>
-          <li><strong>Shareability.</strong> Nobody screenshots a pie chart. People do forward a line about their Swiggy habit to the group chat, and every forward is a Fold ad.</li>
-          <li><strong>Behaviour change.</strong> Every roast ends with one concrete fix and a rupee number. The joke gets attention; the fix is what sticks.</li>
+          <li><strong>Retention.</strong> A notification people actually want to open, instead of one more bill or warning.</li>
+          <li><strong>Shareability.</strong> Nobody screenshots a pie chart. People do forward a roast about their Swiggy habit, and every forward is a Fold ad.</li>
+          <li><strong>Behaviour change.</strong> Every roast ends with one fix and a rupee number. The joke gets attention; the fix is what sticks.</li>
         </ul>
-        <p class="finding">On my own inbox, <strong>64%</strong> of what an SMS parser called spending was self-transfers and card bill payments. Fold's Account Aggregator data already solves that; the roast layer is what's missing.</p>
+        <p class="pull">Humour is how you separate anxiety from money.</p>
       </section>
     </main>
 
@@ -77,7 +94,9 @@
       <p class="fine">All data on this page is fictional.</p>
     </footer>
   </div>
+  <p class="sr-only" id="sr-status" role="status" aria-live="polite"></p>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">This demo needs JavaScript to show the notifications.</p></noscript>
   <script src="app.js" defer></script>
 </body>
 </html>

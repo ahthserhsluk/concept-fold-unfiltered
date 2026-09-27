@@ -1,0 +1,289 @@
+{
+  "moments": [
+    {
+      "id": "swiggy-late",
+      "profile": "swiggy",
+      "time": "1:12 AM",
+      "trigger": "After the 11th food order past midnight",
+      "title": "11 food orders after midnight",
+      "persona": "desi-mummy",
+      "roasts": {
+        "savage-friend": 1,
+        "desi-mummy": 2,
+        "ca-uncle": 1,
+        "cricket": 0,
+        "villain": 1,
+        "shark-tank": 1,
+        "appraisal": 2,
+        "jyotishi": 1,
+        "hype": 1
+      }
+    },
+    {
+      "id": "swiggy-food",
+      "profile": "swiggy",
+      "time": "Sat, 9:34 PM",
+      "trigger": "Swiggy becomes the top spend of the month",
+      "title": "₹11,240 on Swiggy this month",
+      "persona": "villain",
+      "roasts": {
+        "savage-friend": 0,
+        "desi-mummy": 0,
+        "ca-uncle": 2,
+        "cricket": 1,
+        "villain": 0,
+        "shark-tank": 0,
+        "appraisal": 1,
+        "jyotishi": 0,
+        "hype": 2
+      }
+    },
+    {
+      "id": "swiggy-recap",
+      "profile": "swiggy",
+      "time": "30 Sep, 9:00 PM",
+      "trigger": "Month-end recap",
+      "title": "₹19,029 gone across 61 payments",
+      "persona": "ca-uncle",
+      "roasts": {
+        "savage-friend": 2,
+        "desi-mummy": 1,
+        "ca-uncle": 0,
+        "cricket": 2,
+        "villain": 2,
+        "shark-tank": 2,
+        "appraisal": 0,
+        "jyotishi": 2,
+        "hype": 0
+      }
+    },
+    {
+      "id": "blinkit-late",
+      "profile": "blinkit",
+      "time": "2:07 AM",
+      "trigger": "After the 16th payment past midnight",
+      "title": "16 payments after midnight",
+      "persona": "jyotishi",
+      "roasts": {
+        "savage-friend": 1,
+        "desi-mummy": 2,
+        "ca-uncle": 1,
+        "cricket": 1,
+        "villain": 1,
+        "shark-tank": 1,
+        "appraisal": 0,
+        "jyotishi": 1,
+        "hype": 0
+      }
+    },
+    {
+      "id": "blinkit-qc",
+      "profile": "blinkit",
+      "time": "Sun, 7:22 PM",
+      "trigger": "Quick commerce becomes the biggest category",
+      "title": "41 quick commerce orders: ₹12,450",
+      "persona": "shark-tank",
+      "roasts": {
+        "savage-friend": 0,
+        "desi-mummy": 0,
+        "ca-uncle": 0,
+        "cricket": 0,
+        "villain": 0,
+        "shark-tank": 0,
+        "appraisal": 2,
+        "jyotishi": 0,
+        "hype": 1
+      }
+    },
+    {
+      "id": "blinkit-coffee",
+      "profile": "blinkit",
+      "time": "Thu, 4:45 PM",
+      "trigger": "Another Starbucks payment",
+      "title": "₹2,960 at Starbucks this month",
+      "persona": "savage-friend",
+      "roasts": {
+        "savage-friend": 2,
+        "desi-mummy": 1,
+        "ca-uncle": 2,
+        "cricket": 2,
+        "villain": 2,
+        "shark-tank": 2,
+        "appraisal": 1,
+        "jyotishi": 2,
+        "hype": 2
+      }
+    },
+    {
+      "id": "sale-midnight",
+      "profile": "sale",
+      "time": "1:34 AM",
+      "trigger": "Fourth sale order placed after midnight",
+      "title": "4 orders after midnight: ₹9,870",
+      "persona": "appraisal",
+      "roasts": {
+        "savage-friend": 1,
+        "desi-mummy": 0,
+        "ca-uncle": 2,
+        "cricket": 1,
+        "villain": 0,
+        "shark-tank": 2,
+        "appraisal": 1,
+        "jyotishi": 1,
+        "hype": 0
+      }
+    },
+    {
+      "id": "sale-myntra",
+      "profile": "sale",
+      "time": "Sat, 8:15 PM",
+      "trigger": "Biggest single payment of the month",
+      "title": "₹7,499 on one Myntra order",
+      "persona": "cricket",
+      "roasts": {
+        "savage-friend": 0,
+        "desi-mummy": 1,
+        "ca-uncle": 1,
+        "cricket": 0,
+        "villain": 1,
+        "shark-tank": 1,
+        "appraisal": 0,
+        "jyotishi": 0,
+        "hype": 2
+      }
+    },
+    {
+      "id": "sale-recap",
+      "profile": "sale",
+      "time": "30 Sep, 9:00 PM",
+      "trigger": "Month-end recap",
+      "title": "₹36,580 spent, 61% of salary",
+      "persona": "ca-uncle",
+      "roasts": {
+        "savage-friend": 2,
+        "desi-mummy": 2,
+        "ca-uncle": 0,
+        "cricket": 2,
+        "villain": 2,
+        "shark-tank": 0,
+        "appraisal": 2,
+        "jyotishi": 2,
+        "hype": 1
+      }
+    },
+    {
+      "id": "subs-streaming",
+      "profile": "subs",
+      "time": "5 Sep",
+      "trigger": "Seventh streaming renewal of the month",
+      "title": "7 streaming apps, ₹1,913 a month",
+      "persona": "hype",
+      "roasts": {
+        "savage-friend": 0,
+        "desi-mummy": 0,
+        "ca-uncle": 1,
+        "cricket": 1,
+        "villain": 0,
+        "shark-tank": 0,
+        "appraisal": 0,
+        "jyotishi": 0,
+        "hype": 0
+      }
+    },
+    {
+      "id": "subs-movie",
+      "profile": "subs",
+      "time": "Sat, 11:48 PM",
+      "trigger": "Biggest single payment of the month",
+      "title": "₹1,120 on one BookMyShow night",
+      "persona": "villain",
+      "roasts": {
+        "savage-friend": 2,
+        "desi-mummy": 2,
+        "ca-uncle": 0,
+        "cricket": 2,
+        "villain": 2,
+        "shark-tank": 2,
+        "appraisal": 2,
+        "jyotishi": 2,
+        "hype": 2
+      }
+    },
+    {
+      "id": "subs-chai",
+      "profile": "subs",
+      "time": "Fri, 5:10 PM",
+      "trigger": "14th Chaayos payment this month",
+      "title": "14 Chaayos visits this month",
+      "persona": "appraisal",
+      "roasts": {
+        "savage-friend": 1,
+        "desi-mummy": 1,
+        "ca-uncle": 2,
+        "cricket": 0,
+        "villain": 1,
+        "shark-tank": 1,
+        "appraisal": 1,
+        "jyotishi": 1,
+        "hype": 1
+      }
+    },
+    {
+      "id": "salary-10days",
+      "profile": "salary",
+      "time": "11 Sep",
+      "trigger": "10 days after salary credit",
+      "title": "₹31,000 gone in 10 days",
+      "persona": "savage-friend",
+      "roasts": {
+        "savage-friend": 2,
+        "desi-mummy": 1,
+        "ca-uncle": 2,
+        "cricket": 0,
+        "villain": 1,
+        "shark-tank": 1,
+        "appraisal": 0,
+        "jyotishi": 0,
+        "hype": 2
+      }
+    },
+    {
+      "id": "salary-flight",
+      "profile": "salary",
+      "time": "Fri, 7:05 PM",
+      "trigger": "Biggest single payment of the month",
+      "title": "₹5,200 on one IndiGo flight",
+      "persona": "ca-uncle",
+      "roasts": {
+        "savage-friend": 1,
+        "desi-mummy": 2,
+        "ca-uncle": 1,
+        "cricket": 1,
+        "villain": 2,
+        "shark-tank": 2,
+        "appraisal": 2,
+        "jyotishi": 1,
+        "hype": 1
+      }
+    },
+    {
+      "id": "salary-recap",
+      "profile": "salary",
+      "time": "30 Sep, 9:00 PM",
+      "trigger": "Month-end recap",
+      "title": "97% of salary spent, ₹0 invested",
+      "persona": "shark-tank",
+      "roasts": {
+        "savage-friend": 0,
+        "desi-mummy": 0,
+        "ca-uncle": 0,
+        "cricket": 2,
+        "villain": 0,
+        "shark-tank": 0,
+        "appraisal": 1,
+        "jyotishi": 2,
+        "hype": 0
+      }
+    }
+  ]
+}
