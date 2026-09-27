@@ -25,77 +25,104 @@
 <body>
   <a class="skip" href="#notifs">Skip to the notifications</a>
   <div class="page">
-    <main class="layout">
+    <section class="stage" aria-label="Phone lock screen preview">
+      <div class="stage-inner">
+          <div class="phone">
+            <span class="phone-btn phone-btn-l1" aria-hidden="true"></span>
+            <span class="phone-btn phone-btn-l2" aria-hidden="true"></span>
+            <span class="phone-btn phone-btn-r" aria-hidden="true"></span>
+            <div class="screen">
+              <div class="statusbar" aria-hidden="true">
+                <span class="sb-left"></span>
+                <span class="island"></span>
+                <span class="sb-right">
+                  <svg viewBox="0 0 18 12" class="ic-signal"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+                  <svg viewBox="0 0 16 12" class="ic-wifi"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.5 6.9a6.4 6.4 0 0 1 9 0l-1.4 1.4a4.4 4.4 0 0 0-6.2 0zM1.3 4.7a9.5 9.5 0 0 1 13.4 0l-1.4 1.4a7.5 7.5 0 0 0-10.6 0z"/></svg>
+                  <svg viewBox="0 0 27 12" class="ic-batt"><rect x=".5" y=".5" width="23" height="11" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="16" height="8" rx="1.8"/><rect x="24.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg>
+                </span>
+              </div>
+
+              <div class="lock" aria-hidden="true">
+                <svg viewBox="0 0 12 16" class="ic-lock"><path d="M3 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="1" y="7" width="10" height="8" rx="2"/></svg>
+                <p class="lock-date">Saturday, 27 September</p>
+                <p class="lock-time">9:41</p>
+              </div>
+
+              <ol class="notifs" id="notifs" aria-label="Notifications" tabindex="-1"></ol>
+
+              <div class="lock-foot" aria-hidden="true">
+                <span class="lf-btn"><svg viewBox="0 0 24 24"><path d="M7.5 2h9v3.2L14.5 8.5V20a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8.5L7.5 5.2z"/></svg></span>
+                <span class="lf-btn"><svg viewBox="0 0 24 24"><path d="M4 8a2 2 0 0 1 2-2h2l1.5-2h5L16 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.5" r="3.4" fill="var(--wp-2)"/></svg></span>
+                <span class="home-bar"></span>
+              </div>
+            </div>
+          </div>
+        <div class="switcher">
+          <button type="button" class="icon-btn" id="prev" aria-label="Previous spender">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <div class="sw-text" aria-live="polite">
+            <p class="sw-name" id="sw-name">&nbsp;</p>
+            <p class="sw-sub" id="sw-sub">&nbsp;</p>
+          </div>
+          <button type="button" class="icon-btn" id="next" aria-label="Next spender">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <main class="info">
       <header class="masthead">
         <p class="tag">Concept for Fold</p>
         <h1>Fold Unfiltered</h1>
         <p class="dek">Be painfully aware, in Hinglish.</p>
-        <p class="intro">What if your money app texted you like a friend who has seen your bank statement? Three notifications from one fictional month. Tap one to read it.</p>
       </header>
 
-      <section class="stage" aria-label="Phone lock screen preview">
-        <div class="phone">
-          <span class="phone-btn phone-btn-l1" aria-hidden="true"></span>
-          <span class="phone-btn phone-btn-l2" aria-hidden="true"></span>
-          <span class="phone-btn phone-btn-r" aria-hidden="true"></span>
-          <div class="screen">
-            <div class="statusbar" aria-hidden="true">
-              <span class="sb-left"></span>
-              <span class="island"></span>
-              <span class="sb-right">
-                <svg viewBox="0 0 18 12" class="ic-signal"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
-                <svg viewBox="0 0 16 12" class="ic-wifi"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.5 6.9a6.4 6.4 0 0 1 9 0l-1.4 1.4a4.4 4.4 0 0 0-6.2 0zM1.3 4.7a9.5 9.5 0 0 1 13.4 0l-1.4 1.4a7.5 7.5 0 0 0-10.6 0z"/></svg>
-                <svg viewBox="0 0 27 12" class="ic-batt"><rect x=".5" y=".5" width="23" height="11" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="16" height="8" rx="1.8"/><rect x="24.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-n" aria-hidden="true">1</span>
+          <div class="step-body">
+            <h2 class="step-t">Right moment</h2>
+            <p class="step-d">It pings you when it happens, not in a monthly report.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-n" aria-hidden="true">2</span>
+          <div class="step-body">
+            <div class="step-row">
+              <h2 class="step-t">Your voice</h2>
+              <span class="select-wrap">
+                <select id="voice" aria-label="Voice">
+                  <option value="mix">Mix</option>
+                </select>
               </span>
             </div>
-
-            <div class="lock" aria-hidden="true">
-              <svg viewBox="0 0 12 16" class="ic-lock"><path d="M3 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="1" y="7" width="10" height="8" rx="2"/></svg>
-              <p class="lock-date">Saturday, 27 September</p>
-              <p class="lock-time">9:41</p>
-            </div>
-
-            <ol class="notifs" id="notifs" aria-label="Notifications" tabindex="-1"></ol>
-
-            <div class="lock-foot" aria-hidden="true">
-              <span class="lf-btn"><svg viewBox="0 0 24 24"><path d="M7.5 2h9v3.2L14.5 8.5V20a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8.5L7.5 5.2z"/></svg></span>
-              <span class="lf-btn"><svg viewBox="0 0 24 24"><path d="M4 8a2 2 0 0 1 2-2h2l1.5-2h5L16 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.5" r="3.4" fill="var(--wp-2)"/></svg></span>
-              <span class="home-bar"></span>
-            </div>
+            <p class="step-d">Desi mummy, CA uncle, 7 more.</p>
           </div>
-        </div>
-        <p class="caption" id="caption">&nbsp;</p>
-        <p class="hint">Tap a notification to open it. All data is fictional.</p>
-      </section>
+        </li>
+        <li class="step">
+          <span class="step-n" aria-hidden="true">3</span>
+          <div class="step-body">
+            <h2 class="step-t">Always a fix</h2>
+            <p class="step-d">Every roast ends with one action and a rupee number.</p>
+          </div>
+        </li>
+      </ol>
 
-      <section class="controls" aria-labelledby="h-voice">
-        <h2 id="h-voice" class="kicker">Pick a voice</h2>
-        <div class="chips" id="personas" role="group" aria-label="Roast voice"></div>
-        <div class="actions">
-          <button type="button" class="btn btn-primary" id="btn-next">Next spender</button>
-          <button type="button" class="btn" id="btn-share">Share</button>
-          <button type="button" class="btn" id="btn-save">Save image</button>
-        </div>
-      </section>
+      <p class="pull">Humour separates anxiety from money.</p>
 
-      <section class="pitch" aria-labelledby="h-why">
-        <h2 id="h-why" class="kicker">Why this, why Fold</h2>
-        <ul class="why-list">
-          <li><strong>Retention.</strong> A notification people actually want to open, instead of one more bill or warning.</li>
-          <li><strong>Shareability.</strong> Nobody screenshots a pie chart. People do forward a roast about their Swiggy habit, and every forward is a Fold ad.</li>
-          <li><strong>Behaviour change.</strong> Every roast ends with one fix and a rupee number. The joke gets attention; the fix is what sticks.</li>
-        </ul>
-        <p class="pull">Humour is how you separate anxiety from money.</p>
-      </section>
+      <footer class="footer">
+        <p class="contact">Vaibhav Kulshreshtha
+          <a class="icon" href="tel:+919311044005" aria-label="Call +91 93110 44005" title="+91 93110 44005"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg></a>
+          <a class="icon" href="https://github.com/ahthserhsluk" rel="noopener" aria-label="GitHub profile" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></a>
+          <a class="icon" href="https://www.linkedin.com/in/vaibhav-kulshreshtha/" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
+        </p>
+        <p class="fine">All data is fictional</p>
+      </footer>
     </main>
-
-    <footer class="footer">
-      <p>Vaibhav Kulshreshtha <span aria-hidden="true">·</span> <a href="tel:+919311044005">+91 93110 44005</a> <span aria-hidden="true">·</span> <a href="https://github.com/ahthserhsluk" rel="noopener">github.com/ahthserhsluk</a></p>
-      <p class="fine">All data on this page is fictional.</p>
-    </footer>
   </div>
   <p class="sr-only" id="sr-status" role="status" aria-live="polite"></p>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <noscript><p class="noscript">This demo needs JavaScript to show the notifications.</p></noscript>
   <script src="app.js" defer></script>
 </body>
